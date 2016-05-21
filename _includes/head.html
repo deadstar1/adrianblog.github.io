@@ -1,0 +1,30 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+  <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-569b61df7d055f6e&async=1" async="async"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/public/pace/pace.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/pace/flat_top.css">
+  
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/public/style.css">
+   <script type="text/javascript" src="{{ site.baseurl }}/public/aa.js"></script>
+   
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+    
+    
+</head>

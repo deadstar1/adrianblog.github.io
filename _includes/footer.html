@@ -1,0 +1,33 @@
+<div class='social'>
+    
+{% if site.twitter_username %}
+
+    <a title='Twitter' href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="fa fa-twitter-square fa-2x"></i> 
+    </a>
+
+{% endif %}
+
+{% if site.github_username %}
+
+    <a title='Github' href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github-square fa-2x"></i> 
+    </a>
+
+{% endif %}
+
+{% if site.hackerone_username %}
+
+    <a title='Hackerone' href="https://hackerone.com/{{ site.hackerone_username }}">
+      <i class="fa fa-bug fa-2x"></i> 
+    </a>
+
+{% endif %}
+
+{% if site.bugcrowd_username %}
+    <a title='Bugcrowd' href="https://bugcrowd.com/{{ site.bugcrowd_username }}">
+      <i class="fa fa-bug fa-2x"></i>
+    </a>
+{% endif %}
+
+</div>

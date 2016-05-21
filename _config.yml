@@ -1,0 +1,44 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               .adrian{}
+tagline:             web security blog
+url:                 http://deadstar1.github.io
+paginate: 3
+baseurl:             ""
+comments:             True
+analytics_id: UA-75403295-1
+twitter_username: nukesec
+github_username: deadstar1
+hackerone_username: adrianbelen
+bugcrowd_username: adrianbelen
+
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Adrian Belen
+  url:               https://twitter.com/NUkesec
+  email:             maradriantest@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/deadstar1/deadstar1.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+ # Feed: '/atom.xml'
